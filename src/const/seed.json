@@ -1,0 +1,1382 @@
+[
+  {
+    "movie": [
+      {
+        "id": "e99efd7e-8a5a-4f3e-877a-63ba110f6f04",
+        "name": "The Secret Life of Pets",
+        "year": 25311,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 36831,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-01T19:29:26.775Z",
+        "updated_at": "2023-08-02T15:20:40.873Z"
+      },
+      {
+        "id": "11687898-c60e-4aa3-be5b-f4226d2a7315",
+        "name": "Inception",
+        "year": 12033,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 79273,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-02T00:48:35.618Z",
+        "updated_at": "2023-08-02T14:57:01.653Z"
+      },
+      {
+        "id": "a927981d-1fcc-4131-adc4-8cd609221cd9",
+        "name": "The Shawshank Redemption",
+        "year": 37185,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 35749,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-01T21:28:10.625Z",
+        "updated_at": "2023-08-02T14:43:57.842Z"
+      },
+      {
+        "id": "6306b599-f86a-4d90-b0a4-50c0b9a95105",
+        "name": "The Lion King",
+        "year": 45118,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 66624,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-02T03:13:45.830Z",
+        "updated_at": "2023-08-01T22:49:10.063Z"
+      },
+      {
+        "id": "ef875a28-b9d4-4679-a693-cc170e2426d9",
+        "name": "Pulp Fiction",
+        "year": 72940,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 73592,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-01T22:47:10.490Z",
+        "updated_at": "2023-08-01T15:56:25.726Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "dc1e8a77-92ba-404e-a2bd-47c25ad3a743",
+        "created_at": "2023-08-01T17:08:10.618Z",
+        "updated_at": "2023-08-02T10:59:30.796Z",
+        "movie_id": "ef875a28-b9d4-4679-a693-cc170e2426d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "257ca9b7-79ad-40fb-9976-37f24a237213",
+        "created_at": "2023-08-02T06:40:28.722Z",
+        "updated_at": "2023-08-02T07:23:44.988Z",
+        "movie_id": "6306b599-f86a-4d90-b0a4-50c0b9a95105",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7141d6ac-bc75-4000-be20-34e042bfcd76",
+        "created_at": "2023-08-01T16:36:34.620Z",
+        "updated_at": "2023-08-01T21:29:15.543Z",
+        "movie_id": "6306b599-f86a-4d90-b0a4-50c0b9a95105",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e0d0c6a-e169-4c88-afa1-d711ae77bf7a",
+        "created_at": "2023-08-01T20:46:30.074Z",
+        "updated_at": "2023-08-01T22:55:18.098Z",
+        "movie_id": "6306b599-f86a-4d90-b0a4-50c0b9a95105",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e34f0ef4-34a7-447e-af43-15c6abd7411b",
+        "created_at": "2023-08-02T11:34:24.898Z",
+        "updated_at": "2023-08-01T16:53:25.626Z",
+        "movie_id": "a927981d-1fcc-4131-adc4-8cd609221cd9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "a1d6724b-1026-4d6c-9283-794a0d5dc577",
+        "content": "Great movie!",
+        "created_at": "2023-08-01T19:29:37.344Z",
+        "updated_at": "2023-08-02T03:56:26.565Z",
+        "movie_id": "a927981d-1fcc-4131-adc4-8cd609221cd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcfa5221-e44d-41e4-bdee-f7b407618c99",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-01T20:06:29.688Z",
+        "updated_at": "2023-08-02T03:09:32.647Z",
+        "movie_id": "a927981d-1fcc-4131-adc4-8cd609221cd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b75c5453-bd46-4535-b603-a21922bf1967",
+        "content": "The acting was superb",
+        "created_at": "2023-08-02T01:30:45.670Z",
+        "updated_at": "2023-08-02T06:00:08.831Z",
+        "movie_id": "a927981d-1fcc-4131-adc4-8cd609221cd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a4de7da-6549-4791-87cd-2924a0de7531",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-01T17:40:58.556Z",
+        "updated_at": "2023-08-01T23:05:10.504Z",
+        "movie_id": "ef875a28-b9d4-4679-a693-cc170e2426d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9443cdfe-6344-44ff-9c30-7fb242402471",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-01T23:30:40.774Z",
+        "updated_at": "2023-08-02T07:34:20.582Z",
+        "movie_id": "11687898-c60e-4aa3-be5b-f4226d2a7315",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "b8c1cb77-85f3-4b60-9cb1-c4835e5d12c4",
+        "name": "The Secret Life of Pets",
+        "year": 1760,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 42528,
+        "interesting_facts": "The film was inspired by the director's own pets",
+        "created_at": "2023-08-01T20:15:49.916Z",
+        "updated_at": "2023-08-02T03:54:02.857Z"
+      },
+      {
+        "id": "944d6eae-5000-48cd-bf30-daf9b09b7925",
+        "name": "Inception",
+        "year": 93259,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 54451,
+        "interesting_facts": "The spinning top at the end of the movie is open to interpretation",
+        "created_at": "2023-08-01T21:59:19.362Z",
+        "updated_at": "2023-08-01T20:10:08.183Z"
+      },
+      {
+        "id": "916f6524-59fb-4f9c-8bd5-4b71be3e3833",
+        "name": "The Shawshank Redemption",
+        "year": 86876,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 50224,
+        "interesting_facts": "The movie is based on a novella by Stephen King",
+        "created_at": "2023-08-02T11:48:32.790Z",
+        "updated_at": "2023-08-02T02:41:54.039Z"
+      },
+      {
+        "id": "65125833-4881-417b-bfca-cdafeb5a1f9a",
+        "name": "The Lion King",
+        "year": 27287,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 2249,
+        "interesting_facts": "The original animated film was released in 1994",
+        "created_at": "2023-08-01T20:38:28.321Z",
+        "updated_at": "2023-08-01T18:58:01.337Z"
+      },
+      {
+        "id": "44e41141-40e5-4027-a35c-0af787f07e33",
+        "name": "Pulp Fiction",
+        "year": 76457,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 65485,
+        "interesting_facts": "The movie is known for its nonlinear narrative structure",
+        "created_at": "2023-08-01T18:49:18.672Z",
+        "updated_at": "2023-08-01T21:22:33.316Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "039dffe9-8c51-4717-9aa3-f1d723aeec46",
+        "created_at": "2023-08-02T13:22:58.307Z",
+        "updated_at": "2023-08-02T03:43:20.144Z",
+        "movie_id": "944d6eae-5000-48cd-bf30-daf9b09b7925",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f16dcde-1ce1-4703-ad41-a316e1a09251",
+        "created_at": "2023-08-01T22:02:10.214Z",
+        "updated_at": "2023-08-02T13:54:48.285Z",
+        "movie_id": "944d6eae-5000-48cd-bf30-daf9b09b7925",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "549fcb0a-82db-46d3-b13b-0462b4effd3f",
+        "created_at": "2023-08-02T04:55:01.822Z",
+        "updated_at": "2023-08-02T01:02:08.879Z",
+        "movie_id": "44e41141-40e5-4027-a35c-0af787f07e33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf5bc151-290c-4796-bb93-ce16f5eb0860",
+        "created_at": "2023-08-02T12:24:15.781Z",
+        "updated_at": "2023-08-02T00:49:08.725Z",
+        "movie_id": "944d6eae-5000-48cd-bf30-daf9b09b7925",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aad2bc12-be40-4986-9c7b-64738b41799d",
+        "created_at": "2023-08-02T15:11:14.436Z",
+        "updated_at": "2023-08-02T14:49:40.836Z",
+        "movie_id": "44e41141-40e5-4027-a35c-0af787f07e33",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "cf22d404-4d2d-4ed6-ae25-beb70d8dc74f",
+        "content": "Great movie!",
+        "created_at": "2023-08-02T08:56:18.985Z",
+        "updated_at": "2023-08-02T06:14:19.751Z",
+        "movie_id": "944d6eae-5000-48cd-bf30-daf9b09b7925",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb06144a-2b5e-4776-b8c4-e6fcdd8b8370",
+        "content": "I really enjoyed this film",
+        "created_at": "2023-08-02T15:05:37.335Z",
+        "updated_at": "2023-08-01T19:24:27.282Z",
+        "movie_id": "944d6eae-5000-48cd-bf30-daf9b09b7925",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d84d1960-bcc4-4e1d-88b2-3658f3d5b1a5",
+        "content": "The acting was superb",
+        "created_at": "2023-08-01T16:03:12.146Z",
+        "updated_at": "2023-08-02T03:45:31.473Z",
+        "movie_id": "916f6524-59fb-4f9c-8bd5-4b71be3e3833",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c041220c-2dc1-47f0-a597-b66e49b9ca28",
+        "content": "Highly recommend watching it",
+        "created_at": "2023-08-01T23:15:15.912Z",
+        "updated_at": "2023-08-01T20:46:51.652Z",
+        "movie_id": "b8c1cb77-85f3-4b60-9cb1-c4835e5d12c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cdf356c-284c-4401-aa38-3de725915227",
+        "content": "The plot twist was unexpected",
+        "created_at": "2023-08-01T15:58:49.594Z",
+        "updated_at": "2023-08-02T08:48:22.505Z",
+        "movie_id": "916f6524-59fb-4f9c-8bd5-4b71be3e3833",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "1b163a7e-981c-49c0-81fb-de1ddd029af7",
+        "name": "The Secret Life of Pets",
+        "year": 64621,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 298,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-02T02:02:26.034Z",
+        "updated_at": "2023-08-02T09:18:47.441Z"
+      },
+      {
+        "id": "3061a406-ecb5-4915-b9fc-772a73e6def9",
+        "name": "Inception",
+        "year": 99639,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 95601,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-02T02:35:04.077Z",
+        "updated_at": "2023-08-02T14:37:29.712Z"
+      },
+      {
+        "id": "ca87b6be-2a5f-402f-aa21-da248de42bc1",
+        "name": "The Shawshank Redemption",
+        "year": 19175,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 53422,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-02T01:23:45.857Z",
+        "updated_at": "2023-08-02T00:40:16.629Z"
+      },
+      {
+        "id": "dfae36ba-b0f5-498d-82c5-50d7e072c61e",
+        "name": "The Lion King",
+        "year": 18995,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 31900,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-02T09:54:28.374Z",
+        "updated_at": "2023-08-02T10:22:07.489Z"
+      },
+      {
+        "id": "780e28f1-68e4-4369-a9d3-ab0b028440d4",
+        "name": "Pulp Fiction",
+        "year": 59967,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 12534,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-02T07:09:55.946Z",
+        "updated_at": "2023-08-01T17:30:04.113Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "3ffc6db7-3ef4-48ea-a77e-72f2a2e95bc6",
+        "created_at": "2023-08-01T21:23:07.251Z",
+        "updated_at": "2023-08-02T14:05:30.114Z",
+        "movie_id": "3061a406-ecb5-4915-b9fc-772a73e6def9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed31181c-3f82-43ef-bb8e-5b384677aaac",
+        "created_at": "2023-08-02T10:37:16.101Z",
+        "updated_at": "2023-08-01T15:26:30.811Z",
+        "movie_id": "3061a406-ecb5-4915-b9fc-772a73e6def9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffb71043-7290-4c42-926d-b7ecd7ac5e58",
+        "created_at": "2023-08-01T16:24:13.807Z",
+        "updated_at": "2023-08-01T22:38:26.216Z",
+        "movie_id": "1b163a7e-981c-49c0-81fb-de1ddd029af7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2e58d04-3194-49d8-9a80-8da294488764",
+        "created_at": "2023-08-02T06:17:50.273Z",
+        "updated_at": "2023-08-02T03:42:53.196Z",
+        "movie_id": "dfae36ba-b0f5-498d-82c5-50d7e072c61e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68f11197-1919-453c-8f14-65cb88fc467b",
+        "created_at": "2023-08-02T07:52:51.676Z",
+        "updated_at": "2023-08-01T17:21:06.408Z",
+        "movie_id": "ca87b6be-2a5f-402f-aa21-da248de42bc1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "0a00386b-68ab-4c67-96b6-7815b99ff523",
+        "content": "Great movie!",
+        "created_at": "2023-08-01T23:00:14.822Z",
+        "updated_at": "2023-08-02T06:36:26.683Z",
+        "movie_id": "dfae36ba-b0f5-498d-82c5-50d7e072c61e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d18d57c0-75bb-436e-948c-626f98436f74",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-01T18:34:58.234Z",
+        "updated_at": "2023-08-01T21:52:39.724Z",
+        "movie_id": "dfae36ba-b0f5-498d-82c5-50d7e072c61e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9cc27c2-655f-43bc-8f01-e2274c722f5f",
+        "content": "The acting was superb",
+        "created_at": "2023-08-02T12:22:07.694Z",
+        "updated_at": "2023-08-01T22:18:12.854Z",
+        "movie_id": "dfae36ba-b0f5-498d-82c5-50d7e072c61e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "190d6e74-f01b-4a75-81fd-71f008514b0b",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-01T22:26:26.723Z",
+        "updated_at": "2023-08-02T02:40:48.335Z",
+        "movie_id": "3061a406-ecb5-4915-b9fc-772a73e6def9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fdda84d-1209-42db-9db5-2ed3761f2fa9",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-01T17:56:33.454Z",
+        "updated_at": "2023-08-02T04:30:06.254Z",
+        "movie_id": "ca87b6be-2a5f-402f-aa21-da248de42bc1",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "2068f5e5-7341-4961-bb48-c3db7f80dabf",
+        "name": "The Secret Life of Pets",
+        "year": 26284,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 17556,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-02T06:55:14.016Z",
+        "updated_at": "2023-08-01T21:32:39.154Z"
+      },
+      {
+        "id": "0cf00b5b-687b-4e35-9944-ad07a2dd0379",
+        "name": "Inception",
+        "year": 89970,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 34581,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-02T15:04:19.614Z",
+        "updated_at": "2023-08-02T08:54:00.209Z"
+      },
+      {
+        "id": "1823c02b-7cfa-490a-801f-861427501726",
+        "name": "The Shawshank Redemption",
+        "year": 18029,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 69109,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-02T14:20:15.084Z",
+        "updated_at": "2023-08-01T16:15:28.849Z"
+      },
+      {
+        "id": "26d52d53-10bd-419f-9201-b4dd13099dd8",
+        "name": "The Lion King",
+        "year": 5802,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 4682,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-02T04:02:30.259Z",
+        "updated_at": "2023-08-02T01:56:23.736Z"
+      },
+      {
+        "id": "bee52298-2999-4e34-9337-87da48dd829d",
+        "name": "Pulp Fiction",
+        "year": 89547,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 25829,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-02T07:07:26.980Z",
+        "updated_at": "2023-08-02T13:39:07.021Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "cd4cf7f2-51f1-4ba3-a6bd-1ab3f98b59ee",
+        "created_at": "2023-08-01T19:46:46.650Z",
+        "updated_at": "2023-08-01T17:14:40.024Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eec430c4-0ec9-403a-91de-21749f3db87d",
+        "created_at": "2023-08-02T14:15:57.427Z",
+        "updated_at": "2023-08-02T11:27:04.197Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae9ac81f-80e6-4184-b2b4-0116b7024e78",
+        "created_at": "2023-08-01T23:14:50.765Z",
+        "updated_at": "2023-08-02T01:29:27.573Z",
+        "movie_id": "0cf00b5b-687b-4e35-9944-ad07a2dd0379",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff4b15b8-5b8d-4726-b0b9-103920fd849d",
+        "created_at": "2023-08-02T05:19:40.353Z",
+        "updated_at": "2023-08-02T00:40:50.000Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1057cb0a-dfce-434c-8425-9bfd9223aff1",
+        "created_at": "2023-08-02T10:24:47.993Z",
+        "updated_at": "2023-08-02T01:17:14.123Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "6b3bba4f-5cfe-4f31-8926-2d044b3796b9",
+        "content": "Great movie!",
+        "created_at": "2023-08-01T22:37:56.246Z",
+        "updated_at": "2023-08-02T08:17:43.356Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c26245d3-d0c4-44ce-8eb0-e3281d749eda",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-01T22:02:33.422Z",
+        "updated_at": "2023-08-02T07:06:01.240Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "461c8bd3-4993-4703-bae9-94a042541c9e",
+        "content": "The acting was superb",
+        "created_at": "2023-08-02T00:25:59.815Z",
+        "updated_at": "2023-08-01T20:18:23.024Z",
+        "movie_id": "26d52d53-10bd-419f-9201-b4dd13099dd8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19345c95-5582-400c-aeb5-2331240a5818",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-02T06:14:54.173Z",
+        "updated_at": "2023-08-02T11:17:30.220Z",
+        "movie_id": "bee52298-2999-4e34-9337-87da48dd829d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c981f8ee-d2a6-44c4-8bf4-b9cc7792983c",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-01T23:39:46.935Z",
+        "updated_at": "2023-08-01T21:41:08.981Z",
+        "movie_id": "1823c02b-7cfa-490a-801f-861427501726",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "41d9abe4-c9e7-4666-b3c4-b72541576dd2",
+        "name": "The Secret Life of Pets",
+        "year": 99642,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 76061,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-02T01:11:47.307Z",
+        "updated_at": "2023-08-02T11:36:36.520Z"
+      },
+      {
+        "id": "22c48b5b-aa8f-4f19-9d5a-5808b084a677",
+        "name": "Inception",
+        "year": 58079,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 82888,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-02T15:12:54.662Z",
+        "updated_at": "2023-08-02T02:40:59.703Z"
+      },
+      {
+        "id": "81116b36-a148-4efe-a186-c65817c29bbc",
+        "name": "The Shawshank Redemption",
+        "year": 93687,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 67257,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-02T07:53:22.464Z",
+        "updated_at": "2023-08-02T12:56:30.476Z"
+      },
+      {
+        "id": "092b016d-a43d-44d6-85f8-467e9f2cec2e",
+        "name": "The Lion King",
+        "year": 5260,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 45961,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-01T15:59:43.388Z",
+        "updated_at": "2023-08-01T20:03:23.508Z"
+      },
+      {
+        "id": "a10cc28e-4375-4cea-881b-5f209ea5c944",
+        "name": "Pulp Fiction",
+        "year": 79332,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 19775,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-01T18:44:24.223Z",
+        "updated_at": "2023-08-01T22:56:05.019Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "0738ca78-b2d5-4993-b95a-56a7e3491970",
+        "created_at": "2023-08-01T16:08:15.107Z",
+        "updated_at": "2023-08-02T07:09:27.722Z",
+        "movie_id": "41d9abe4-c9e7-4666-b3c4-b72541576dd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e67205d-4268-4dbc-afa3-68cd8059d131",
+        "created_at": "2023-08-02T14:16:03.813Z",
+        "updated_at": "2023-08-02T09:58:13.634Z",
+        "movie_id": "092b016d-a43d-44d6-85f8-467e9f2cec2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d249069d-4f99-46e4-8436-993c394981fa",
+        "created_at": "2023-08-02T09:48:10.167Z",
+        "updated_at": "2023-08-02T10:35:05.554Z",
+        "movie_id": "81116b36-a148-4efe-a186-c65817c29bbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4f916d4-f7e7-4869-8845-a1e109620b48",
+        "created_at": "2023-08-02T13:07:48.384Z",
+        "updated_at": "2023-08-02T01:24:30.535Z",
+        "movie_id": "81116b36-a148-4efe-a186-c65817c29bbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fdefa21-9a4f-4f35-9680-6b4e532633d0",
+        "created_at": "2023-08-02T04:38:46.026Z",
+        "updated_at": "2023-08-02T04:35:22.001Z",
+        "movie_id": "41d9abe4-c9e7-4666-b3c4-b72541576dd2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "61a1680a-525e-48c3-9b40-ab2a46f85c2f",
+        "content": "Great movie!",
+        "created_at": "2023-08-01T18:23:35.364Z",
+        "updated_at": "2023-08-01T19:50:26.570Z",
+        "movie_id": "41d9abe4-c9e7-4666-b3c4-b72541576dd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92a5f4c3-d61d-4307-a8b6-b3dc4e652a87",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-01T18:13:52.924Z",
+        "updated_at": "2023-08-02T13:11:09.308Z",
+        "movie_id": "41d9abe4-c9e7-4666-b3c4-b72541576dd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73dae8bf-0388-453b-b0ef-c7e62da8268b",
+        "content": "The acting was superb",
+        "created_at": "2023-08-01T16:59:28.416Z",
+        "updated_at": "2023-08-02T11:40:05.953Z",
+        "movie_id": "41d9abe4-c9e7-4666-b3c4-b72541576dd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a52b33-b035-4a13-87aa-3ab4818d3c78",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-02T07:39:30.470Z",
+        "updated_at": "2023-08-02T06:47:15.799Z",
+        "movie_id": "81116b36-a148-4efe-a186-c65817c29bbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8870d8b3-9b5d-4dda-91b2-d48c7a6945d0",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-01T20:47:23.577Z",
+        "updated_at": "2023-08-02T13:00:35.418Z",
+        "movie_id": "22c48b5b-aa8f-4f19-9d5a-5808b084a677",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "c760e063-e756-4378-9e9c-35aef3b95dd4",
+        "name": "The Secret Life of Pets",
+        "year": 70037,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 17317,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-01T19:01:10.292Z",
+        "updated_at": "2023-08-01T18:50:37.147Z"
+      },
+      {
+        "id": "87ee8249-bd5f-4ad6-a100-b32512f9ed40",
+        "name": "Inception",
+        "year": 13857,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 55047,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-02T03:13:39.940Z",
+        "updated_at": "2023-08-01T16:57:42.093Z"
+      },
+      {
+        "id": "59a7681f-97c2-479e-913d-2e4d111d25b5",
+        "name": "The Shawshank Redemption",
+        "year": 22639,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 88717,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-02T14:22:37.588Z",
+        "updated_at": "2023-08-02T00:57:08.949Z"
+      },
+      {
+        "id": "f90c3d7d-8784-4f89-80d9-fc1818429b3f",
+        "name": "The Lion King",
+        "year": 30763,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 84131,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-01T16:53:46.556Z",
+        "updated_at": "2023-08-02T07:25:37.817Z"
+      },
+      {
+        "id": "f830cacb-4592-409d-8f5c-661248b034c6",
+        "name": "Pulp Fiction",
+        "year": 94251,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 63081,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-01T23:03:00.866Z",
+        "updated_at": "2023-08-02T11:39:03.701Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "b456ea9b-1dbc-46a3-b7cd-675f9eb6096a",
+        "created_at": "2023-08-02T01:57:32.621Z",
+        "updated_at": "2023-08-01T18:46:53.224Z",
+        "movie_id": "f90c3d7d-8784-4f89-80d9-fc1818429b3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1132dc83-2239-4c13-b969-a99d4e2c5217",
+        "created_at": "2023-08-01T19:07:00.740Z",
+        "updated_at": "2023-08-01T18:01:02.499Z",
+        "movie_id": "59a7681f-97c2-479e-913d-2e4d111d25b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dee1194f-8df3-488d-a977-916218e49fe7",
+        "created_at": "2023-08-02T03:26:52.950Z",
+        "updated_at": "2023-08-02T12:51:56.454Z",
+        "movie_id": "c760e063-e756-4378-9e9c-35aef3b95dd4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7693647d-1234-40c4-998f-1e89d6f119ba",
+        "created_at": "2023-08-01T20:52:35.254Z",
+        "updated_at": "2023-08-02T08:50:54.572Z",
+        "movie_id": "59a7681f-97c2-479e-913d-2e4d111d25b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8c5fd5e-7eb4-4b23-9c0c-a8f8142187bc",
+        "created_at": "2023-08-02T05:22:16.546Z",
+        "updated_at": "2023-08-02T00:59:51.887Z",
+        "movie_id": "f90c3d7d-8784-4f89-80d9-fc1818429b3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "7fdb2438-8812-4ed2-add4-6c690eeb17ef",
+        "content": "Great movie!",
+        "created_at": "2023-08-01T19:08:56.807Z",
+        "updated_at": "2023-08-02T01:24:17.796Z",
+        "movie_id": "87ee8249-bd5f-4ad6-a100-b32512f9ed40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf9fecf8-d873-4114-a41c-131ac3ec4d37",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-02T07:48:21.540Z",
+        "updated_at": "2023-08-01T16:11:51.534Z",
+        "movie_id": "59a7681f-97c2-479e-913d-2e4d111d25b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42f7efbf-47dc-4574-aab2-be133505f140",
+        "content": "The acting was superb",
+        "created_at": "2023-08-02T10:44:59.175Z",
+        "updated_at": "2023-08-02T02:35:55.748Z",
+        "movie_id": "c760e063-e756-4378-9e9c-35aef3b95dd4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a978dd27-7594-40dc-875b-44eb08ae0ba9",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-02T12:24:27.133Z",
+        "updated_at": "2023-08-01T21:32:28.568Z",
+        "movie_id": "87ee8249-bd5f-4ad6-a100-b32512f9ed40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f3e87aa-b7ca-4f61-b680-a01427993275",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-01T22:48:45.014Z",
+        "updated_at": "2023-08-02T10:08:03.584Z",
+        "movie_id": "f90c3d7d-8784-4f89-80d9-fc1818429b3f",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "bf82c540-8176-4bfc-a91e-aaa83c9133b7",
+        "name": "The Secret Life of Pets",
+        "year": 33888,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 97052,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-02T08:35:50.326Z",
+        "updated_at": "2023-08-02T11:38:43.507Z"
+      },
+      {
+        "id": "d9d111c9-0589-4dd7-a4ed-cb36b6e0df31",
+        "name": "Inception",
+        "year": 71633,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 67264,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-02T14:18:26.471Z",
+        "updated_at": "2023-08-01T16:46:03.664Z"
+      },
+      {
+        "id": "e3cfd211-3495-4107-9c6c-6c774a2b4a43",
+        "name": "The Shawshank Redemption",
+        "year": 17816,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 54104,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-02T13:03:30.600Z",
+        "updated_at": "2023-08-01T20:26:57.080Z"
+      },
+      {
+        "id": "cf6e3c55-094c-44d3-a877-b23dd02815c2",
+        "name": "The Lion King",
+        "year": 21475,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 25543,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-02T12:10:48.805Z",
+        "updated_at": "2023-08-02T00:29:08.391Z"
+      },
+      {
+        "id": "ed52ece6-bde3-45ce-a658-904a868e8860",
+        "name": "Pulp Fiction",
+        "year": 88029,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 331,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-01T20:28:44.346Z",
+        "updated_at": "2023-08-02T13:23:47.961Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "539a67f1-525b-4f2c-a3ee-b5ed6ba8ffcc",
+        "created_at": "2023-08-01T20:54:29.229Z",
+        "updated_at": "2023-08-02T00:40:26.238Z",
+        "movie_id": "cf6e3c55-094c-44d3-a877-b23dd02815c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "791761f9-adba-4856-9a72-c433bd20e9a1",
+        "created_at": "2023-08-01T21:57:02.689Z",
+        "updated_at": "2023-08-02T14:16:55.115Z",
+        "movie_id": "cf6e3c55-094c-44d3-a877-b23dd02815c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbe239d8-9a10-43a9-a5cc-af710d840db8",
+        "created_at": "2023-08-01T18:13:47.768Z",
+        "updated_at": "2023-08-01T20:28:55.333Z",
+        "movie_id": "cf6e3c55-094c-44d3-a877-b23dd02815c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b1a73ee-2d0c-4d53-ad44-5aaf8c0c54c0",
+        "created_at": "2023-08-02T04:51:16.032Z",
+        "updated_at": "2023-08-02T13:44:29.175Z",
+        "movie_id": "bf82c540-8176-4bfc-a91e-aaa83c9133b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddea30b5-b491-49ac-87c2-66502643d416",
+        "created_at": "2023-08-02T07:15:39.349Z",
+        "updated_at": "2023-08-02T10:13:35.521Z",
+        "movie_id": "e3cfd211-3495-4107-9c6c-6c774a2b4a43",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "ff8485cd-94b1-44da-a74a-7f530889b579",
+        "content": "Great movie!",
+        "created_at": "2023-08-02T10:09:24.576Z",
+        "updated_at": "2023-08-01T22:15:46.376Z",
+        "movie_id": "bf82c540-8176-4bfc-a91e-aaa83c9133b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dba5e3da-f4e2-4b9a-bc03-1ea1c3d5e9db",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-01T20:07:57.990Z",
+        "updated_at": "2023-08-01T18:08:46.288Z",
+        "movie_id": "cf6e3c55-094c-44d3-a877-b23dd02815c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0270fec-09c3-465d-8af9-b1201791efb7",
+        "content": "The acting was superb",
+        "created_at": "2023-08-01T19:48:47.331Z",
+        "updated_at": "2023-08-01T18:07:32.794Z",
+        "movie_id": "cf6e3c55-094c-44d3-a877-b23dd02815c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea99a623-f550-4546-a4a9-cca7de08231e",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-02T04:03:52.283Z",
+        "updated_at": "2023-08-01T22:37:40.200Z",
+        "movie_id": "e3cfd211-3495-4107-9c6c-6c774a2b4a43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64cff0a3-d414-4a1b-a20c-55500de8b19b",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-01T23:36:40.752Z",
+        "updated_at": "2023-08-02T06:25:22.145Z",
+        "movie_id": "bf82c540-8176-4bfc-a91e-aaa83c9133b7",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "1e207af1-5332-495b-b4f3-5669e36d929e",
+        "name": "The Secret Life of Pets",
+        "year": 50376,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 41527,
+        "interesting_facts": "The film was inspired by the director's own pets",
+        "created_at": "2023-08-02T09:49:13.578Z",
+        "updated_at": "2023-08-02T00:18:54.204Z"
+      },
+      {
+        "id": "40832b1d-39ad-4e3c-a65e-0a15462cd251",
+        "name": "Inception",
+        "year": 5169,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 96517,
+        "interesting_facts": "The spinning top at the end of the movie is open to interpretation",
+        "created_at": "2023-08-02T13:32:12.500Z",
+        "updated_at": "2023-08-02T07:56:45.888Z"
+      },
+      {
+        "id": "ca6cde57-16c5-4be2-a6a5-e18857ff781e",
+        "name": "The Shawshank Redemption",
+        "year": 68111,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 64496,
+        "interesting_facts": "The movie is based on a novella by Stephen King",
+        "created_at": "2023-08-01T16:21:34.076Z",
+        "updated_at": "2023-08-02T00:18:15.194Z"
+      },
+      {
+        "id": "d491a4e0-e4bd-4a21-9d72-ddcb811c650d",
+        "name": "The Lion King",
+        "year": 93276,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 83028,
+        "interesting_facts": "The original animated film was released in 1994",
+        "created_at": "2023-08-02T06:58:05.007Z",
+        "updated_at": "2023-08-02T08:25:30.783Z"
+      },
+      {
+        "id": "3aefac70-da50-443e-aa5e-ad61846ed57a",
+        "name": "Pulp Fiction",
+        "year": 14338,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 4104,
+        "interesting_facts": "The movie is known for its nonlinear narrative structure",
+        "created_at": "2023-08-01T18:04:19.815Z",
+        "updated_at": "2023-08-01T19:36:54.518Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "b413dc3c-eb4c-43fe-8a95-20a34fd0aa61",
+        "created_at": "2023-08-02T09:26:40.025Z",
+        "updated_at": "2023-08-02T06:58:54.767Z",
+        "movie_id": "3aefac70-da50-443e-aa5e-ad61846ed57a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aac692a5-a5e9-4d6d-937c-84ea30b3913e",
+        "created_at": "2023-08-02T05:46:26.824Z",
+        "updated_at": "2023-08-02T15:17:03.997Z",
+        "movie_id": "40832b1d-39ad-4e3c-a65e-0a15462cd251",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a431f17e-7e28-4b46-94ef-1007de5d23fe",
+        "created_at": "2023-08-01T21:07:57.693Z",
+        "updated_at": "2023-08-02T04:48:15.946Z",
+        "movie_id": "1e207af1-5332-495b-b4f3-5669e36d929e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eea57c8c-4e9a-43f3-9d56-ce02d444fc9a",
+        "created_at": "2023-08-01T20:45:05.920Z",
+        "updated_at": "2023-08-02T01:50:09.929Z",
+        "movie_id": "1e207af1-5332-495b-b4f3-5669e36d929e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0df00647-f18e-45f5-b077-022e5b39d484",
+        "created_at": "2023-08-02T05:36:37.314Z",
+        "updated_at": "2023-08-01T18:12:28.878Z",
+        "movie_id": "d491a4e0-e4bd-4a21-9d72-ddcb811c650d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "a28f1cdf-5e1e-4c7e-bde8-077593c232e8",
+        "content": "Great movie!",
+        "created_at": "2023-08-01T16:27:17.688Z",
+        "updated_at": "2023-08-01T20:27:19.175Z",
+        "movie_id": "d491a4e0-e4bd-4a21-9d72-ddcb811c650d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b70aff79-79fb-41a6-829f-7ab2d0f6bb03",
+        "content": "I loved the plot twist",
+        "created_at": "2023-08-02T10:32:52.417Z",
+        "updated_at": "2023-08-02T09:18:27.711Z",
+        "movie_id": "1e207af1-5332-495b-b4f3-5669e36d929e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4380093f-c97d-4072-a409-2bb6c61724f6",
+        "content": "The acting was superb",
+        "created_at": "2023-08-01T19:18:26.816Z",
+        "updated_at": "2023-08-01T20:46:29.488Z",
+        "movie_id": "40832b1d-39ad-4e3c-a65e-0a15462cd251",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00644b23-4933-4e36-bb17-efc1018251aa",
+        "content": "Highly recommended",
+        "created_at": "2023-08-01T22:44:57.222Z",
+        "updated_at": "2023-08-01T17:59:45.033Z",
+        "movie_id": "40832b1d-39ad-4e3c-a65e-0a15462cd251",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52c2ae21-13cc-4897-8996-b9af4cd95e20",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-02T14:37:57.109Z",
+        "updated_at": "2023-08-02T06:35:58.251Z",
+        "movie_id": "d491a4e0-e4bd-4a21-9d72-ddcb811c650d",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "3d689e19-5b0b-4c40-ada9-83f52c689f0d",
+        "name": "The Secret Life of Pets",
+        "year": 43955,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 97370,
+        "interesting_facts": "The film was inspired by the director's own pets",
+        "created_at": "2023-08-02T02:30:48.989Z",
+        "updated_at": "2023-08-01T19:57:39.651Z"
+      },
+      {
+        "id": "a0da2d06-73b9-488c-8fdb-c53db1660273",
+        "name": "Inception",
+        "year": 35421,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 86238,
+        "interesting_facts": "The spinning top at the end of the movie is open to interpretation",
+        "created_at": "2023-08-01T21:13:27.215Z",
+        "updated_at": "2023-08-02T11:19:24.204Z"
+      },
+      {
+        "id": "69a69604-5b51-492c-9751-ad6d52624ec0",
+        "name": "The Shawshank Redemption",
+        "year": 20351,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 20830,
+        "interesting_facts": "The movie is based on a novella by Stephen King",
+        "created_at": "2023-08-01T21:41:34.958Z",
+        "updated_at": "2023-08-02T03:14:19.122Z"
+      },
+      {
+        "id": "3e19b33b-ef26-4887-aa27-4ec4c3de8e43",
+        "name": "The Lion King",
+        "year": 4325,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 84920,
+        "interesting_facts": "The original animated film was released in 1994",
+        "created_at": "2023-08-02T14:01:58.244Z",
+        "updated_at": "2023-08-02T03:00:35.304Z"
+      },
+      {
+        "id": "08d0df4a-c9f1-43b5-89dc-619e4e08116d",
+        "name": "Pulp Fiction",
+        "year": 12615,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 25467,
+        "interesting_facts": "The movie is known for its nonlinear narrative structure",
+        "created_at": "2023-08-02T07:34:23.938Z",
+        "updated_at": "2023-08-01T18:06:16.160Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "ae8391d2-5aaf-40f2-9066-1ea604a3b1c6",
+        "created_at": "2023-08-01T23:43:05.737Z",
+        "updated_at": "2023-08-01T23:29:33.714Z",
+        "movie_id": "08d0df4a-c9f1-43b5-89dc-619e4e08116d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d0922bf-1132-4c09-ad7d-6e650dbf8188",
+        "created_at": "2023-08-01T23:09:30.108Z",
+        "updated_at": "2023-08-01T18:38:43.154Z",
+        "movie_id": "3d689e19-5b0b-4c40-ada9-83f52c689f0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e70f6ceb-82f6-4ba6-aa6d-69ecd2695921",
+        "created_at": "2023-08-01T23:45:45.515Z",
+        "updated_at": "2023-08-02T08:37:35.286Z",
+        "movie_id": "69a69604-5b51-492c-9751-ad6d52624ec0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9643c197-8089-4d4a-8870-64ed63ee2da1",
+        "created_at": "2023-08-01T15:44:02.696Z",
+        "updated_at": "2023-08-01T23:57:48.705Z",
+        "movie_id": "3e19b33b-ef26-4887-aa27-4ec4c3de8e43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27f5387d-fb68-4539-bae4-5a60022175ba",
+        "created_at": "2023-08-02T12:02:05.014Z",
+        "updated_at": "2023-08-02T05:37:49.229Z",
+        "movie_id": "3e19b33b-ef26-4887-aa27-4ec4c3de8e43",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "6e9801a2-c38f-4770-b628-3e0098e13839",
+        "content": "Great movie!",
+        "created_at": "2023-08-02T07:42:26.753Z",
+        "updated_at": "2023-08-02T10:43:46.118Z",
+        "movie_id": "08d0df4a-c9f1-43b5-89dc-619e4e08116d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a5dc9b2-ecab-4a78-addb-e12075843ca4",
+        "content": "I really enjoyed this film",
+        "created_at": "2023-08-01T19:54:04.914Z",
+        "updated_at": "2023-08-02T00:07:02.737Z",
+        "movie_id": "a0da2d06-73b9-488c-8fdb-c53db1660273",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d392d6d3-c1cc-4b00-80f4-dd5ca881fc30",
+        "content": "The acting was superb",
+        "created_at": "2023-08-02T14:57:46.429Z",
+        "updated_at": "2023-08-01T16:58:40.766Z",
+        "movie_id": "3e19b33b-ef26-4887-aa27-4ec4c3de8e43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee60e6c2-6b3b-416d-8888-48c4eab5f8d9",
+        "content": "Highly recommend watching it",
+        "created_at": "2023-08-02T08:51:03.090Z",
+        "updated_at": "2023-08-02T09:33:05.608Z",
+        "movie_id": "a0da2d06-73b9-488c-8fdb-c53db1660273",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff1a2e87-d672-442d-aa0b-8770d62b0c73",
+        "content": "The plot twist was unexpected",
+        "created_at": "2023-08-01T16:58:06.447Z",
+        "updated_at": "2023-08-01T20:27:28.487Z",
+        "movie_id": "3e19b33b-ef26-4887-aa27-4ec4c3de8e43",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "cad0db1c-c63a-4959-a50c-748f3b8e2eb7",
+        "name": "The Secret Life of Pets",
+        "year": 91005,
+        "category": "Animation",
+        "vod_service": "Netflix",
+        "cost": 81374,
+        "interesting_facts": "The film features the voices of Louis C.K. and Kevin Hart",
+        "created_at": "2023-08-02T13:02:39.635Z",
+        "updated_at": "2023-08-01T18:41:20.867Z"
+      },
+      {
+        "id": "a255b4bd-a546-483d-8ad9-eaa4abf3de92",
+        "name": "Inception",
+        "year": 5698,
+        "category": "Thriller",
+        "vod_service": "Amazon Prime Video",
+        "cost": 59155,
+        "interesting_facts": "The movie explores the concept of shared dreaming",
+        "created_at": "2023-08-01T16:16:23.331Z",
+        "updated_at": "2023-08-02T11:28:09.819Z"
+      },
+      {
+        "id": "4d576261-9d8b-4a94-af09-0aa8ea4686a9",
+        "name": "The Shawshank Redemption",
+        "year": 14353,
+        "category": "Drama",
+        "vod_service": "Hulu",
+        "cost": 58111,
+        "interesting_facts": "Considered one of the greatest films of all time",
+        "created_at": "2023-08-01T16:07:31.180Z",
+        "updated_at": "2023-08-02T04:26:56.482Z"
+      },
+      {
+        "id": "d9307aa5-3d3e-4572-8e27-351c4d27d7a0",
+        "name": "The Lion King",
+        "year": 85855,
+        "category": "Adventure",
+        "vod_service": "Disney+",
+        "cost": 92466,
+        "interesting_facts": "The animated film won two Academy Awards",
+        "created_at": "2023-08-02T09:01:03.388Z",
+        "updated_at": "2023-08-02T07:14:44.547Z"
+      },
+      {
+        "id": "4a312a59-8555-4bed-93e5-3d6f86e0c3a0",
+        "name": "Pulp Fiction",
+        "year": 96521,
+        "category": "Crime",
+        "vod_service": "HBO Max",
+        "cost": 87705,
+        "interesting_facts": "Known for its nonlinear narrative structure",
+        "created_at": "2023-08-02T12:59:59.884Z",
+        "updated_at": "2023-08-01T15:25:54.694Z"
+      }
+    ],
+    "favorite": [
+      {
+        "id": "8a98ab10-2087-492c-a230-c3e1bceb1608",
+        "created_at": "2023-08-01T22:35:53.846Z",
+        "updated_at": "2023-08-02T01:09:18.547Z",
+        "movie_id": "a255b4bd-a546-483d-8ad9-eaa4abf3de92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2776d58-e7e2-4b11-9271-53efc98e4b55",
+        "created_at": "2023-08-01T22:38:05.969Z",
+        "updated_at": "2023-08-02T05:15:11.960Z",
+        "movie_id": "4d576261-9d8b-4a94-af09-0aa8ea4686a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d231f15f-88a2-4549-b583-f475578755e7",
+        "created_at": "2023-08-02T05:56:05.088Z",
+        "updated_at": "2023-08-02T04:53:45.779Z",
+        "movie_id": "d9307aa5-3d3e-4572-8e27-351c4d27d7a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b791893-dc6f-4c2d-a61d-df22d1641a34",
+        "created_at": "2023-08-01T20:33:01.023Z",
+        "updated_at": "2023-08-02T15:06:23.616Z",
+        "movie_id": "cad0db1c-c63a-4959-a50c-748f3b8e2eb7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aafe32d5-7acf-4d54-8f7d-4e6e4f09d8ca",
+        "created_at": "2023-08-02T08:32:48.511Z",
+        "updated_at": "2023-08-01T15:32:10.995Z",
+        "movie_id": "4a312a59-8555-4bed-93e5-3d6f86e0c3a0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "comment": [
+      {
+        "id": "92151322-e0a3-483d-8055-d5748839ba9e",
+        "content": "Great movie!",
+        "created_at": "2023-08-02T14:49:39.505Z",
+        "updated_at": "2023-08-01T19:17:55.844Z",
+        "movie_id": "cad0db1c-c63a-4959-a50c-748f3b8e2eb7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d29778b3-1d12-425f-ba4e-3fee7e894ed0",
+        "content": "I really enjoyed watching this",
+        "created_at": "2023-08-02T13:35:25.170Z",
+        "updated_at": "2023-08-02T05:24:36.016Z",
+        "movie_id": "4a312a59-8555-4bed-93e5-3d6f86e0c3a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab8fe89b-eae4-42f4-a6e2-95f600fb1209",
+        "content": "The acting was superb",
+        "created_at": "2023-08-02T01:32:11.920Z",
+        "updated_at": "2023-08-02T03:38:00.761Z",
+        "movie_id": "d9307aa5-3d3e-4572-8e27-351c4d27d7a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfcd3a20-efec-4c56-aff0-884cadd0d830",
+        "content": "Highly recommend it",
+        "created_at": "2023-08-01T22:31:56.209Z",
+        "updated_at": "2023-08-02T13:35:34.729Z",
+        "movie_id": "cad0db1c-c63a-4959-a50c-748f3b8e2eb7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f9f6679-70e0-4119-af4f-89d422c55500",
+        "content": "Can't wait to watch it again",
+        "created_at": "2023-08-02T09:54:49.279Z",
+        "updated_at": "2023-08-01T15:43:51.390Z",
+        "movie_id": "4a312a59-8555-4bed-93e5-3d6f86e0c3a0",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
